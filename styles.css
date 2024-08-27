@@ -1,0 +1,42 @@
+:root {
+  --blog-yellow: #F4D04E;
+  --blog-gray-950: #111111;
+  --blog-gray-500: #6b6b6b;
+  --blog-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Figtree', system-ui;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--blog-yellow);
+}
+
+.card {
+  width: 32.7rem;
+  height: 50.1rem;
+  padding: 2.4rem;
+  background-color: var(--blog-white);
+  border-radius: 20px;
+  box-shadow: 8px 8px black;
+}
+
+.card--illustration {
+  width: 27.9rem;
+  height: 20rem;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
