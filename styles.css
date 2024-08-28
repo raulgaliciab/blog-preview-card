@@ -66,10 +66,16 @@ body {
 }
 
 .card--information h1 {
+  display: inline-block;
   margin-bottom: 1.2rem;
   font-size: 2rem;
   font-weight: 800;
   color: var(--blog-gray-950);
+  cursor: pointer;
+}
+
+.card--information h1:hover {
+  color: var(--blog-yellow);
 }
 
 .card--information p {
