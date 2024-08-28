@@ -80,9 +80,21 @@ body {
 
 .card--author {
   display: flex;
+  width: 12.9rem;
+  height: 3.2rem;
+  justify-content: space-between;
 }
 
 .card--author img {
   width: 32px;
   height: 32px;
+}
+
+.card--author p {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--blog-gray-950);
+  justify-content: center;
+  align-items: center;
 }
