@@ -25,6 +25,9 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 32.7rem;
   height: 50.1rem;
   padding: 2.4rem;
@@ -45,11 +48,41 @@ body {
   display: flex;
   width: 73px;
   height: 26px;
+  margin-bottom: 1.2rem;
   background-color: var(--blog-yellow);
   border-radius: 4px;
   font-size: 1.2rem;
-  font-weight: 900;
+  font-weight: 800;
   color: var(--blog-gray-950);
   justify-content: center;
   align-items: center;
+}
+
+.card--information h2 {
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--blog-gray-950);
+}
+
+.card--information h1 {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--blog-gray-950);
+}
+
+.card--information p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--blog-gray-500);
+}
+
+.card--author {
+  display: flex;
+}
+
+.card--author img {
+  width: 32px;
+  height: 32px;
 }
